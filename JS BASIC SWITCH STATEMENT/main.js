@@ -81,31 +81,121 @@
 //         break;
 // }
 // 4 
-let grade = +prompt("Enter your grade .")
-switch (grade) {
-    case grade >= 85:
-        console.log("you achive a A1 Grade");
-        break;
-    case grade >= 70:
-        console.log("you achive a A Grade");
-        break;
-    case grade >= 60:
-        console.log("you achive a B Grade");
-        break;
-    case grade >= 50:
-        console.log("you achive a C Grade");
-        break;
-    case grade >= 40:
-        console.log("you achive a D Grade");
-        break;
-    case grade > 100:
-        console.log("invalid input ,please enter the number between 1 to 100");
-        break;
-    case( grade < 0):
-        console.log("invalid input ,please enter the number between 1 to 100");
-        break;
+// let grade = +prompt("Enter your grade .")
+// switch (grade) {
+//     case grade >= 85:
+//         console.log("you achive a A1 Grade");
+//         break;
+//     case grade >= 70:
+//         console.log("you achive a A Grade");
+//         break;
+//     case grade >= 60:
+//         console.log("you achive a B Grade");
+//         break;
+//     case grade >= 50:
+//         console.log("you achive a C Grade");
+//         break;
+//     case grade >= 40:
+//         console.log("you achive a D Grade");
+//         break;
+//     case grade > 100:
+//         console.log("invalid input ,please enter the number between 1 to 100");
+//         break;
+//     case (grade < 0):
+//         console.log("invalid input ,please enter the number between 1 to 100");
+//         break;
 
+//     default:
+//         console.log("you are fail");
+//         break;
+// }
+// 5 
+// 6 
+// let side = +prompt("write a num of shape");
+// switch (side) {
+//     case 4:
+//         console.log("It is a square");
+//         break;
+//     case 3:
+//         console.log("It is a triangle");
+//         break;
+//     case 2:
+//         console.log("It is a line");
+//         break;
+//     case 1:
+//         console.log("It is a dout");
+//         break;
+//     default:
+//         console.log("It is a circle");
+//         break;
+// }
+// 7 
+// let season = +prompt("write a no of month. ")
+// switch (season) {
+//     case 12:
+//     case 1:
+//     case 2:
+//         console.log("the season is winter in this month");
+//         break;
+//     case 3:
+//     case 4:
+//     case 5:
+//         console.log("the season is fall in this month");
+//         break;
+//     case 6:
+//     case 7:
+//     case 8:
+//         console.log("the season is summer in this month");
+//         break;
+//     case 9:
+//     case 10:
+//     case 11:
+//         console.log("the season is spring in this month");
+//         break;
+
+//     default:
+//         console.log("Invalid input ! please enter the number between 1 to 12");
+//         break;
+// }
+// 8
+// let getFoodName = prompt("write the name of food. ")
+// switch (getFoodName) {
+//     case "banana":
+//     case "apple":
+//     case "strawberry":
+//         console.log("it is a FRUIT");
+//         break;
+
+//     case "potato":
+//     case "onion":
+//     case "Tomato":
+//         console.log("it is a VEGETABLE");
+//         break;
+
+
+//     case 'rice':
+//     case 'wheat':
+//         console.log("it is a GRAIN");
+//         break;
+
+//     default:
+//         console.log("invalid Input !");
+//         break;
+// }
+// 9 
+// 10
+let fuel = prompt("write the type of fuel.")
+switch (fuel) {
+    case "petrol":
+        console.log("It is commonly use in bikes and cars ");
+        break;
+    case 'deasel':
+        console.log("It is commonly use in Truck ");
+        break;
+    case "CNG":
+        console.log("It is commonly use in Rickshaw ");
+        break;
     default:
-        console.log("you are fail");
+        console.log("Invalid Input ,");
         break;
 }
